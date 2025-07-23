@@ -18,3 +18,6 @@ class CharacterFactory:
         if key not in cls._cache:
             cls._cache[key] = Character(font, size)
         return cls._cache[key]
+
+
+print("new branch")
