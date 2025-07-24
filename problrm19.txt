@@ -1,0 +1,24 @@
+1)Separate notification sending logic from the order processing flow:
+	Observer -->because we want to notify a group of user when a change occurs in a particular object ,and if  we want to change  or  update notification 
+				sending logic ,then we dont need to change  the  code  in a  lot of places
+	
+2)Allow adding or removing behavior before and after processing without changing core code.
+	Decorator -->
+	
+3)Implement flexible logging that respects different importance levels.
+	Strategy -->
+	
+4)Encapsulate order status changes to support undoing and redoing actions.
+	Memento/Command -->
+
+5)Provide a simple, unified interface for clients interacting with the system.
+	Facade Pattern -->
+	
+6)Enable users to manage their notification preferences and subscriptions easily.
+	Observer -->
+	
+7)Design the system to handle asynchronous or delayed operations smoothly if needed in the future.
+	
+
+
+
